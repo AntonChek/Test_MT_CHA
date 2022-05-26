@@ -3,7 +3,7 @@ from classes.institute import Institute
 import unittest
 
 class TestAddExamResult(unittest.TestCase):
-    stud = Student("Луковцев Алексей Владимирович", 185775)
+    stud = Student("Чекуров Антон Юрьевич", 185775)
     spec = Specialization('Фундаментальная информатика и информационные технологии')
     subject = Subject("Б1.Б.22", "Основы программирования", 1, 144, spec)
     group = Group("Б-ФИИТ-21", 2021, spec)
@@ -71,7 +71,7 @@ class TestAddExamResult(unittest.TestCase):
 
 
 class TestGetExamResult(unittest.TestCase):
-    student = Student("Луковцев Алексей Владимирович", 185775)
+    student = Student("Чекуров Антон Юрьевич", 185775)
     spec = Specialization('Фундаментальная информатика и информационные технологии')
     subject = Subject("Б1.Б.22", "Основы программирования", 1, 144, spec)
     group = Group("Б-ФИИТ-21", 2021, spec)
