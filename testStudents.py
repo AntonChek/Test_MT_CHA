@@ -4,7 +4,7 @@ import unittest
 
 class TestAddStudent(unittest.TestCase):
     def test_one(self): #correct
-        stud = Student('Чекуров Антон Юрьевич', 185775)
+        stud = Student('Чекуров Антон Юрьевич', 1857750000)
         inst = Institute()
         inst.add_stud(stud)
         self.assertEqual(len(inst.students), 1)
